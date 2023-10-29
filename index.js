@@ -62,6 +62,7 @@ function showPerson(){
 
 nextBtn.addEventListener('click', function (){
     currentItem+=1;
+    nextBtn.setAttribute('title', 'Next Person');
     if(currentItem >= reviews.length - 0){
         currentItem = 0;
     }
